@@ -57,6 +57,7 @@ class Blockchain(object):
     def hash(block):
         """
         Creates a SHA-256 hash of a Block
+        :param block: <dict> Block
         :return: <str>
         """
 
